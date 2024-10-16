@@ -182,7 +182,6 @@ h1, h2, h3, p {
 .team-section {
     background-color: #f4f4fd;
 }
-
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -197,32 +196,34 @@ h1, h2, h3, p {
 .team-list{
     display: flex;
     gap: 24px;
-    justify-content: center;
+    margin: 0 auto;
+    padding-top: 0;
 }
 .team-box{
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     background-color: #fff;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    flex-basis: calc((100% - 72px) / 4);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    text-align: center;
+}
+.team-box-list{
+    padding: 32px 0;
+}
+.team-list .team-content-list{
+    margin-bottom: 8px;
 }
 .team-content-list {
-    margin-top: 32px;
-    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
 }
 .team-content-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    text-align: center;
 }
 /* ______________________________FOUR_____________ */
 .portfolio-content {
@@ -265,16 +266,17 @@ h1, h2, h3, p {
 }
 .portfolio-row-item{
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
 .card-row-list {
     font-weight: 500;
     font-size: 20px;
-    line-height: 120%;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .card-row-item {
     font-size: 16px;
