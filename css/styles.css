@@ -152,12 +152,12 @@ h1, h2, h3, p {
 .container-list{
     display: flex;
     gap: 24px;
-    /* justify-content: center;
-    /* align-items: baseline; */
-    /* padding: 120px 156px;  */
 }
 .container-list .features-box{
     flex-basis: calc((100% - 72px) / 4);
+}
+.feature-subtitle{
+    margin-bottom: 8px;
 }
 .feature-subtitle {
     font-weight: 500;
@@ -165,13 +165,11 @@ h1, h2, h3, p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
 }
 .feature-item {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 .features-container{
     display: inline;
