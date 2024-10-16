@@ -156,7 +156,7 @@ h1, h2, h3, p {
 .container-list .features-box{
     flex-basis: calc((100% - 72px) / 4);
 }
-.feature-subtitle{
+.feature-title{
     margin-bottom: 8px;
 }
 .feature-title {
